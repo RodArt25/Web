@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>Productos - RodArt</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+
+  <body>
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+      <div id="loader" class="dots-fade">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div id="top" class="s-wrap site-wrapper">
+      <!-- site header
+        ================================================== -->
+      <header class="s-header">
+        <div class="header__top">
+          <div class="header__logo">
+            <a class="site-logo" href="index.html">
+              <img src="images/logo.svg" alt="Homepage" />
+            </a>
+          </div>
+        </div>
+        <!-- end header__top -->
+
+        <nav class="header__nav-wrap">
+          <ul class="header__nav">
+            <li><a href="index.html" title="">Inicio</a></li>
+            <li class="has-children current">
+              <a href="#0" title="">Productos</a>
+              <ul class="sub-menu">
+                <li><a href="category.html?tipo=Mesas">Mesas</a></li>
+                <li>
+                  <a href="category.html?tipo=Estanterías">Estanterías</a>
+                </li>
+                <li>
+                  <a href="category.html?tipo=Escritorios">Escritorios</a>
+                </li>
+                <li><a href="category.html?tipo=Rack%20TV">Rack TV</a></li>
+                <li>
+                  <a href="category.html?tipo=Recibidores">Recibidores</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="page-about.html" title="">Quiénes Somos</a></li>
+            <li><a href="page-contact.html" title="">Contacto</a></li>
+          </ul>
+          <!-- end header__nav -->
+
+          <ul class="header__social">
+            <li class="ss-whatsapp">
+              <a
+                href="https://wa.me/541124566652"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="screen-reader-text">Whatsapp</span>
+              </a>
+            </li>
+            <li class="ss-instagram">
+              <a
+                href="https://www.instagram.com/rodart.muebles/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="screen-reader-text">Instagram</span>
+              </a>
+            </li>
+            <li class="ss-facebook">
+              <a
+                href="https://www.facebook.com/RodArtMuebles/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="screen-reader-text">Facebook</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- end header__nav-wrap -->
+
+        <!-- menu toggle -->
+        <a href="#0" class="header__menu-toggle">
+          <span>Menu</span>
+        </a>
+      </header>
+      <!-- end s-header -->
+
+      <!-- search
+        ================================================== -->
+      <div class="s-search">
+        <div class="search-block">
+          <form role="search" method="get" class="search-form" action="#">
+            <label>
+              <span class="hide-content">Search for:</span>
+              <input
+                type="search"
+                class="search-field"
+                placeholder="Type Keywords"
+                value=""
+                name="s"
+                title="Search for:"
+                autocomplete="off"
+              />
+            </label>
+            <input type="submit" class="search-submit" value="Search" />
+          </form>
+
+          <a href="#0" title="Close Search" class="search-close">Close</a>
+        </div>
+        <!-- end search-block -->
+
+        <!-- search modal trigger -->
+        <a href="#0" class="search-trigger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1)"
+          >
+            <path
+              d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"
+            ></path>
+          </svg>
+          <span>Buscar</span>
+        </a>
+        <span class="search-line"></span>
+      </div>
+      <!-- end s-search -->
+
+      <!-- site content
+        ================================================== -->
+      <div class="s-content">
+        <header class="listing-header">
+          <h1 class="h2" id="titulo-producto">Productos:</h1>
+        </header>
+
+        <div class="masonry-wrap">
+          <div class="masonry">
+            <div class="grid-sizer"></div>
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Mesas"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/MesaRatona-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/MesaRatona-600.jpg  1x,
+                      images/thumbs/masonry/MesaRatona-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Mesas"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Mesa1-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Mesa1-600.jpg  1x,
+                      images/thumbs/masonry/Mesa1-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Mesas"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Mesa4-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Mesa4-600.jpg  1x,
+                      images/thumbs/masonry/Mesa4-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Mesas"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Mesa5-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Mesa5-600.jpg  1x,
+                      images/thumbs/masonry/Mesa5-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Mesas"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Mesa6-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Mesa6-600.jpg  1x,
+                      images/thumbs/masonry/Mesa6-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Estanterías"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/EstantePared1-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/EstantePared1-600.jpg  1x,
+                      images/thumbs/masonry/EstantePared1-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Estanterías"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Estante2-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Estante2-600.jpg  1x,
+                      images/thumbs/masonry/Estante2-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Estanterías"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Estanteria-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Estanteria-600.jpg  1x,
+                      images/thumbs/masonry/Estanteria-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Estanterías"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Estanteria2-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Estanteria2-600.jpg  1x,
+                      images/thumbs/masonry/Estanteria2-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Estanterías"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Estanteria3-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Estanteria3-600.jpg  1x,
+                      images/thumbs/masonry/Estanteria3-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Estanterías"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Estanteria4-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Estanteria4-600.jpg  1x,
+                      images/thumbs/masonry/Estanteria4-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Escritorios"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Escritorio1-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Escritorio1-600.jpg  1x,
+                      images/thumbs/masonry/Escritorio1-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Escritorios"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Escritorio2-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Escritorio2-600.jpg  1x,
+                      images/thumbs/masonry/Escritorio2-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Escritorios"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Escritorio3-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Escritorio3-600.jpg  1x,
+                      images/thumbs/masonry/Escritorio3-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Escritorios"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Escritorio4-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Escritorio4-600.jpg  1x,
+                      images/thumbs/masonry/Escritorio4-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Escritorios"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Escritorio5-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Escritorio5-600.jpg  1x,
+                      images/thumbs/masonry/Escritorio5-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Rack TV"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/RackTv2-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/RackTv2-600.jpg  1x,
+                      images/thumbs/masonry/RackTv2-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Rack TV"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/RackTv4-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/RackTv4-600.jpg  1x,
+                      images/thumbs/masonry/RackTv4-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Rack TV"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/RackTv-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/RackTv-600.jpg  1x,
+                      images/thumbs/masonry/RackTv-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Rack TV"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/RackTv3-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/RackTv3-600.jpg  1x,
+                      images/thumbs/masonry/RackTv3-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Recibidores"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Recibidor-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Recibidor-600.jpg  1x,
+                      images/thumbs/masonry/Recibidor-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Recibidores"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Recibidor2-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Recibidor2-600.jpg  1x,
+                      images/thumbs/masonry/Recibidor2-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Recibidores"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Recibidor3-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Recibidor3-600.jpg  1x,
+                      images/thumbs/masonry/Recibidor3-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+
+            <article
+              class="masonry__brick entry format-standard animate-this"
+              data-type="Recibidores"
+            >
+              <div class="entry__thumb">
+                <div class="entry__thumb-link">
+                  <img
+                    src="images/thumbs/masonry/Recibidor4-600.jpg"
+                    srcset="
+                      images/thumbs/masonry/Recibidor4-600.jpg  1x,
+                      images/thumbs/masonry/Recibidor4-1200.jpg 2x
+                    "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </article>
+            <!-- end article -->
+          </div>
+          <!-- end masonry -->
+        </div>
+        <!-- end masonry-wrap -->
+      </div>
+      <!-- end s-content -->
+
+      <!-- footer
+        ================================================== -->
+      <footer class="s-footer">
+        <div class="row">
+          <div class="column large-full footer__content">
+            <div class="footer__copyright">
+              <span>© Copyright RodArt 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="go-top">
+          <a class="smoothscroll" title="Volver Arriba" href="#top"></a>
+        </div>
+      </footer>
+    </div>
+    <!-- end s-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Cambia el título según el parámetro 'tipo' de la URL
+      (function () {
+        function getQueryParam(param) {
+          var urlParams = new URLSearchParams(window.location.search);
+          return urlParams.get(param);
+        }
+        var tipo = getQueryParam("tipo");
+        if (tipo) {
+          document.getElementById("titulo-producto").textContent =
+            "Productos: " + tipo;
+        }
+      })();
+    </script>
+    <script>
+      (function () {
+        function getQueryParam(param) {
+          var urlParams = new URLSearchParams(window.location.search);
+          return urlParams.get(param);
+        }
+        var tipo = getQueryParam("tipo");
+        if (tipo) {
+          // Mostrar solo los artículos de la categoría seleccionada
+          document.querySelectorAll(".masonry__brick").forEach(function (el) {
+            console.log("For Each: " + el.getAttribute("data-type"));
+            console.log("Tipo: " + tipo);
+            if (el.getAttribute("data-type") !== tipo) {
+              el.style.display = "none";
+            } else {
+              el.style.display = "";
+            }
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>
